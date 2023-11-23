@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+
+/* box-sizing model */
+*, *::before, *::after{box-sizing: border-box;}
+
+/* default font-family */
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* improve text rendering */
+
+body{
+    background-color: floralwhite;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* remove image default */
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+/* remove default */
+input, button, select{
+    font: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/*   default */
+
+button.normal {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: var(--white);
+    /* background-color: var(--maastricht-blue); */
+    border: solid white 1px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    transition:all 0.3s ease;
+}
+button.info {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    margin: 8px 0 0 0;
+    color: #f2f2f2;
+    background-color: hsla(229, 71%, 41%, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3 ease;
+}
+button.info:hover{
+    background-color: hsla(234, 100%, 50%, 0.8);
+}
+button.normal:hover
+{
+    border-radius: 5px;
+    background-color:#616fe1;
+}
+.socialMediaIcons .fa-brands:hover{
+    color:#616fe1;
+    font-size: 20px;
+}
+
+.contact span:hover ,a:hover{
+    border-bottom: 1px solid;
+}
+
+.brand  a:hover{
+    text-decoration: none;
+    border-bottom: none;
+    font-size: 43px;
+}
+
+.navbar-link:hover{
+    border-bottom: none;
+    text-decoration: none;
+    color: #616fe1;
+}
+
+.search i:hover{
+    color: #616fe1;
+    font-size: 20px;
+}
+
+.buy-now{
+    background-color: hsla(229, 71%, 41%, 0.8);
+    padding: 20px;
+    color: #f2f2f2;
+}
+
+.buy-now:hover{
+    background-color:hsla(234, 100%, 50%, 0.8);
+    border-radius: 10px;
+}
+
+/* remove list item marke */
+li{
+    list-style: none;
+}
+
+/* change link default */
+a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}

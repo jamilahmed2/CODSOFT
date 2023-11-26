@@ -1,0 +1,10 @@
+:root {
+    --color-optr: hsl(206, 34%, 82%);
+    --color-optr2: hsl(208, 24%, 80%);
+    --color-enter: hsl(357, 93%, 61%);
+    --color-bg: hsl(216, 32%, 48%);
+    --color-black: #252525;
+    --color-bg-variant: hsl(206, 7%, 45%);
+    --color-light: #f2f2f2;
+    --color-light-grey: hsl(202, 11%, 29%);
+}

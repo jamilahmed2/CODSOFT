@@ -16,6 +16,15 @@
     display: flex;
     flex-direction: column;
   }
+
+  .projects-container{
+    display: inline-block;
+  }
+
+  .projects-container .projects-item{
+    margin: 1rem 0;
+  }
+
   .contact-details{
     font-size: 1.5rem;
   }

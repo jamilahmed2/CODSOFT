@@ -12,7 +12,7 @@
     color: var(--color-light-grey);
 }
 
-.result {
+.display {
     background: var(--color-bg);
     color: var(--color-light);
     font-size: 4.2rem;
@@ -20,6 +20,15 @@
     padding-block-end: 0.5rem;
     padding-inline-end: 1.25rem;
     text-align: end;
+}
+
+.display input{
+    border: none;
+    outline: none;
+    text-align: end;
+    background-color: transparent;
+    color: var(--color-light);
+    font-size: 1.5rem;
 }
 
 .calc-keys-container {
@@ -43,7 +52,10 @@
     margin: 0.25rem;
     border-radius: 40px;
 }
-
+.AC{
+    color: var(--color-light);
+    background-color: var(--color-light-grey);
+}
 .calc-key:active,
 .calc-key:focus {
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3) inset;

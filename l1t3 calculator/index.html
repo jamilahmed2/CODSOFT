@@ -30,27 +30,29 @@
 <body>
     <!-- Calculator -->
     <div class="calculator">
-        <div class="result">0</div>
+        <div class="display">
+            <input type="text" id="result" readonly>
+        </div>
         <div class="calc-keys-container">
-            <button class="calc-key calc-key--operator">+</button>
-            <button class="calc-key calc-key--operator">-</button>
-            <button class="calc-key calc-key--operator">&times;</button>
-            <button class="calc-key calc-key--operator">÷</button>
-            <button class="calc-key">7</button>
-            <button class="calc-key">8</button>
-            <button class="calc-key">9</button>
-            <button class="calc-key">4</button>
-            <button class="calc-key">5</button>
-            <button class="calc-key">6</button>
-            <button class="calc-key">1</button>
-            <button class="calc-key">2</button>
-            <button class="calc-key">3</button>
-            <button class="calc-key">0</button>
-            <button class="calc-key">.</button>
-            <button class="calc-key">AC</button>
-            <button class="calc-key calc-key--enter">=</button>
+            <button onclick="toDisplay('+')" class="calc-key calc-key--operator">+</button>
+            <button onclick="toDisplay('-')" class="calc-key calc-key--operator">-</button>
+            <button onclick="toDisplay('*')" class="calc-key calc-key--operator">*</button>
+            <button onclick="toDisplay('/')" class="calc-key calc-key--operator">÷</button>
+            <button onclick="toDisplay('7')" class="calc-key">7</button>
+            <button onclick="toDisplay('8')" class="calc-key">8</button>
+            <button onclick="toDisplay('9')" class="calc-key">9</button>
+            <button onclick="toDisplay('4')" class="calc-key">4</button>
+            <button onclick="toDisplay('5')" class="calc-key">5</button>
+            <button onclick="toDisplay('6')" class="calc-key">6</button>
+            <button onclick="toDisplay('1')" class="calc-key">1</button>
+            <button onclick="toDisplay('2')" class="calc-key">2</button>
+            <button onclick="toDisplay('3')" class="calc-key">3</button>
+            <button onclick="toDisplay('0')" class="calc-key">0</button>
+            <button onclick="toDisplay('.')" class="calc-key">.</button>
+            <button onclick="clearDisplay()" class="calc-key AC">AC</button>
+            <button onclick="calculate()" class="calc-key calc-key--enter">=</button>
         </div>
     </div>
 </body>
-
+    <script src="./js/index.js"></script>c
 </html>

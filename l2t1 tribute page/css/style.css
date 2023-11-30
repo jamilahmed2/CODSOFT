@@ -1,0 +1,46 @@
+@import url(./variables.css);
+@import url(./reset.css);
+
+.container {
+  background-color: var(--color-bg);
+  min-height: 100vh;
+  border: 10px solid var(--color-primary-variant);
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.head {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.img-container, img {
+  width: 300px;
+  height: 320px;
+  border-radius: 200px;
+  box-shadow: 0 0 10px var(--color-primary-variant);
+
+}
+.title h1{
+  font-size: 3rem;
+  color: var(--color-primary);
+}
+.title h4{
+  text-align: end;
+  color: var(--color-primary-variant);
+}
+.about{
+  margin: 1rem;
+}
+
+.footer{
+  display: flex;
+  font-weight: 600;
+  justify-content: flex-end;
+  align-items: center;
+}

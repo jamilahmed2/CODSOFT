@@ -1,0 +1,8 @@
+:root {
+    --color-white: #f2f2f2;
+    --color-primary: #6e33ba;
+    --color-primary-variant: #3f1e69;
+    --color-bg: #e8d7ff;
+    --color-bg-variant: #88799b;
+    --color-linear:linear-gradient(90deg, rgba(181, 133, 154, 1) 0%, rgba(66, 32, 110, 1) 46%, rgba(114, 181, 164, 1) 100%);
+}

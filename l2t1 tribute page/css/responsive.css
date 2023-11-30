@@ -1,0 +1,25 @@
+@media (max-width:768px) {
+    .content{
+        padding: 1rem;
+    }
+
+    .head .title{
+        padding: 50px;
+    }
+}
+
+
+
+@media (max-width:600px)  {
+    .content{
+        padding: 1rem;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .title h4{
+        text-align: start;
+    }
+}

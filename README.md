@@ -16,3 +16,7 @@ Web Development Internship Tasks - CodSoft
 ➤ Level 2 Task 1 - Tribute Page
 
 🔴Live: https://sparkly-pavlova-91f1e1.netlify.app/
+
+➤ Level 2 Task 2 - Travel booking app
+
+🔴Repo: https://github.com/jamilahmed2/CODSOFT/tree/main/l2t2-travel-booking-app

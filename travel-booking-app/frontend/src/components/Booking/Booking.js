@@ -14,9 +14,10 @@ const Booking = ({ tour, avgRating }) => {
         userId: user && user._id,
         userEmail: user && user.email,
         tourName: title,
-        phone:  user && user.phone,
-        guestSize:  user && user.guestSize,
-        bookAt:  user && user.bookAt,
+        fullName: user && user.name,
+        phone: user && user.phone,
+        guestSize: user && user.guestSize,
+        bookAt: user && user.bookAt,
     })
 
 
@@ -48,9 +49,9 @@ const Booking = ({ tour, avgRating }) => {
 
             if (res.ok) {
                 toast.success(result.message)
+                navigate('/thank-you')
             }
-            console.log(booking)
-            navigate('/thank-you')
+            // console.log(booking)
 
         } catch (error) {
             toast.error(error.message)
@@ -69,7 +70,9 @@ const Booking = ({ tour, avgRating }) => {
                 </div>
                 <form className="info" onSubmit={handleCLick}>
                     <h5>Information</h5>
-                    <input onChange={handleChange} type="text" placeholder="Full Name" id="name" required />
+                    <input onChange={handleChange} type="email" placeholder="Email" id="email" required />
+                    <input onChange={handleChange} type="text" placeholder="Tour Title" id="tourName" required />
+                    <input onChange={handleChange} type="text" placeholder="fullName" id="fullName" required />
                     <input onChange={handleChange} type="number" placeholder="Phone" id="phone" required />
                     <input onChange={handleChange} type="date" name="" id="bookAt" required />
                     <input onChange={handleChange} type="number" placeholder="Number of guests" id="guestSize" required />
